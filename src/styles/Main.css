@@ -1,0 +1,8 @@
+.info-container {
+	height: 100vh;	/* make container fill entire screen height */
+}
+
+.lsb-container {
+	width: 50px;
+	height: 100vh;
+}
