@@ -1,8 +1,25 @@
+.center-container {
+	background: red;
+	flex-grow: 1;	/* make container fill up remainder of .info-container */
+}
+
 .info-container {
-	height: 100vh;	/* make container fill entire screen height */
+	width: 100%;
+	position: absolute;
+	display: flex;	/* put left and right nav bars on same line */
+	/*justify-content: space-between;	 separate left and right nav bar */
 }
 
 .lsb-container {
 	width: 50px;
-	height: 100vh;
+	height: 92vh;
+	background: yellow;
+	position: relative;
+}
+
+.rsb-container {
+	width: 50px;
+	height: 92vh;
+	background: green;
+	position: relative;
 }

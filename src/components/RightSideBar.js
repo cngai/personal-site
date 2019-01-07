@@ -3,12 +3,12 @@ import github_icon from '../images/github-logo.png';
 import linkedin_icon from '../images/linkedin-logo.png';
 import flickr_icon from '../images/flickr-logo.png';
 
-import '../styles/LeftSideBar.css';
+import '../styles/RightSideBar.css';
 
-class LeftSideBar extends React.Component {
+class RightSideBar extends React.Component {
 	render() {
 		return(
-			<div className="leftsb-container">
+			<div className="rightsb-container">
 				<div className="icon-container">
 					<a href="#">
 						<img className="linkedin-icon" src={linkedin_icon}  />
@@ -25,4 +25,4 @@ class LeftSideBar extends React.Component {
 	}
 }
 
-export default LeftSideBar;
+export default RightSideBar;
